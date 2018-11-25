@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  contacts["Freddy Mercury"].each {
+  contacts["Freddy Mercury"].each { |attribute, value|
     
   }
 
