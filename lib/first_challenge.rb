@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts["Freddy Mercury"].each { |attribute, value|
-    
+    if
   }
 
   #remember to return your newly altered contacts hash!
