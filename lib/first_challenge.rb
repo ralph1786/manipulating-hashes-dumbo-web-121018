@@ -16,7 +16,9 @@ def first_challenge
   #your code here
   contacts["Freddy Mercury"].each { |attribute, value|
     if attribute == :favorite_icecream_flavors
-      value.delete_if
+      value.delete_if { |icecream_flavor|
+        
+      }
     end
   }
 
